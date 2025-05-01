@@ -1,0 +1,217 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fbfc;
+      color: #1e1e1e;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #007BFF;
+    }
+
+    nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #007BFF;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px;
+      background-color: #f0f4f8;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #007BFF;
+    }
+
+    .hero p {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .hero img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .hero-text {
+        max-width: 100%;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero img {
+        margin-top: 30px;
+      }
+    }
+    section {
+        padding: 80px;
+      }
+      
+      .about, .experience {
+        background-color: #ffffff;
+        margin-top: 20px;
+        border-top: 1px solid #eaeaea;
+      }
+      
+      .about h2,
+      .experience h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: #1e1e1e;
+      }
+      
+      .about p {
+        color: #444;
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 800px;
+      }
+      
+      .experience-item {
+        margin-bottom: 30px;
+      }
+      
+      .experience-item h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: #007BFF;
+      }
+      
+      .experience-item p {
+        font-size: 14px;
+        color: #666;
+      }
+      
+      .experience-item span {
+        font-weight: bold;
+      }
+      section {
+        padding: 80px 20px;
+        text-align: center;
+      }
+      
+      .about, .experience, .skills {
+        background-color: #ffffff;
+        margin-top: 20px;
+        border-top: 1px solid #eaeaea;
+      }
+      
+      .about h2,
+      .experience h2,
+      .skills h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: #1e1e1e;
+      }
+      
+      .about p {
+        color: #444;
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      
+      .experience-item {
+        margin-bottom: 30px;
+      }
+      
+      .experience-item h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: #007BFF;
+      }
+      
+      .experience-item p {
+        font-size: 14px;
+        color: #666;
+      }
+      
+      .experience-item span {
+        font-weight: bold;
+      }
+      
+      /* Skills Section */
+      .skills-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+      }
+      
+      .skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+      }
+      
+      .skill img {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 10px;
+      }
+      
+      .skill p {
+        font-size: 14px;
+        color: #333;
+      }
+      
